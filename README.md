@@ -2,7 +2,7 @@
 
 # FastHungarian
 
-Fast assignment problem solver based on modified [Kwok's algorithm](https://www.arxiv.org/pdf/2502.20889) for maximum weight matching on bipartite graphs. Supports anything from `.NET Standard 2.0` to modern `.NET 10+` with no dependencies. Solves both minimum cost assignment (Hungarian algorithm) and maximum weight matching problems. **~12-20× faster** than classical Hungarian algorithm implementations while maintaining optimal solutions. Extensively tested with comprehensive fuzz testing across thousands of matrix configurations.
+Fast assignment problem solver based on modified [Kwok's algorithm](https://www.arxiv.org/pdf/2502.20889) for maximum weight matching on bipartite graphs. Supports anything from `.NET Standard 2.0` to modern `.NET 10+` with no dependencies. Solves both minimum cost assignment (Hungarian algorithm) and maximum weight matching problems. This solver achieves **2.5x speed up** on dense 10x10 matrices and **over 80 times speed up** on sparse 100x100 materies, compared with [HungarianAlgorithm](https://github.com/vivet/HungarianAlgorithm) while maintaining optimal solutions. Extensively tested with comprehensive fuzz testing across thousands of matrix configurations.
 
 ## Getting Started
 
