@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="FastHungarian.Benchmark/FastHungarian.Benchmark.csproj" />
+  <Project Path="FastHungarian.Tests/FastHungarian.Tests.csproj" />
+  <Project Path="FastHungarian/FastHungarian.csproj" />
+</Solution>

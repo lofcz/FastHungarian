@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <LangVersion>preview</LangVersion>
+        <Nullable>enable</Nullable>
+        <TargetFrameworks>net10.0;net8.0;netstandard2.0;</TargetFrameworks>
+        <Deterministic>true</Deterministic>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+        <DebugType>portable</DebugType>
+        <DebugSymbols>true</DebugSymbols>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageId>FastHungarian</PackageId>
+        <PackageIcon>icon.jpg</PackageIcon>
+        <RepositoryUrl>https://github.com/lofcz/FastHungarian</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>hungarian,hungarian-algorithm,kwok,bipartite,bipartite-graph,assignment,assignment-problem,kuhn-munkres,munkres-assignment,hungrarian-method</PackageTags>
+        <Version>1.0.0</Version>
+        <Title>FastHungarian</Title>
+        <Description>The fastest .NET implementaion of the Hungarian algorithm using modified Kwok's method dicovered in 2025.</Description>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <Authors>Matěj Štágl, FastHungarian Collaborators</Authors>
+        <Company />
+        <Product>FastCloner</Product>
+        <Copyright>Matěj Štágl</Copyright>
+        <NeutralLanguage>en</NeutralLanguage>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\..\README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="icon.jpg" Pack="true" PackagePath=""/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <InternalsVisibleTo Include="FastHungarian.Tests" />
+        <InternalsVisibleTo Include="FastHungarian.Benchmark" />
+    </ItemGroup>
+    
+</Project>
