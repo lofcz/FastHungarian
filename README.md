@@ -1,4 +1,4 @@
-[![FastHungarian](https://badgen.net/nuget/v/FastHungarian?v=302&icon=nuget&label=FastHungarian)](https://www.nuget.org/packages/FastHungarian)
+[![FastHungarian](https://shields.io/nuget/v/FastHungarian?v=302&icon=nuget&label=FastHungarian)](https://www.nuget.org/packages/FastHungarian)
 
 # FastHungarian
 
